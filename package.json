@@ -1,0 +1,29 @@
+{
+  "name": "proxy-checker",
+  "version": "1.0.0",
+  "description": "Local bulk proxy health checker",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+  "dev": "tsx src/index.ts",
+  "build": "tsc",
+  "start": "node dist/index.js",
+  "tm-check": "tsx src/tm-check.ts"
+  },
+  "keywords": [
+    "proxy",
+    "proxy-checker",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "p-limit": "^7.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
